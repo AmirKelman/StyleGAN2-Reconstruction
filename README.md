@@ -24,28 +24,30 @@ Key findings from the report:
 - Amir Kelman Image Processing - Exercise 5.pdf: Detailed report covering Sections 3.1 (inversion), 3.2 (synthetic reconstruction), 3.3.1 (deblurring), 3.3.2 (colorization), and 3.3.3 (inpainting).
 
 ### Output Files
-- latents/: Directory containing .npz files (e.g., inverted_latent.npz) with optimized latent vectors for each reconstruction.
-- Image files under directories (e.g., 3.2/, 3.3.1/wedding/, 3.3.2/alan/):
-  - original_image.png: Original input image.
-  - original_degraded_image.png: Degraded version (blurred, grayscale, or masked).
-  - inal_inverted_image.png: Reconstructed image after optimization.
-  - intermidiate_*.png: Intermediate reconstruction steps.
-  - loss_plot.png: Loss progression during optimization.
+- `latents/`: Directory containing `.npz` files (e.g., `inverted_latent.npz`) with optimized latent vectors for each reconstruction.
+- Image files under directories (e.g., `3.2/`, `3.3.1/wedding/`, `3.3.2/alan/`):
+  - `original_image.png`: Original input image.
+  - `original_degraded_image.png`: Degraded version (blurred, grayscale, or masked).
+  - `final_inverted_image.png`: Reconstructed image after optimization.
+  - `intermidiate_*.png`: Intermediate reconstruction steps.
+  - `loss_plot.png`: Loss progression during optimization.
 
 ### Resources
-- impr_ex5_resources/stylegan2-ada-pytorch/: Extracted StyleGAN2-ADA-PyTorch code and pretrained models.
-- Wedding_image_Amir_Aligned.jpg, lan_turing_grayscale.png, ei_fei_li_original.png, yann_lecun_blur.png: Input images used for experiments.
+- `impr_ex5_resources/stylegan2-ada-pytorch/`: Extracted StyleGAN2-ADA-PyTorch code and pretrained models.
+- `Wedding_image_Amir_Aligned.jpg`, `alan_turing_grayscale.png`, `fei_fei_li_original.png`, `yann_lecun_blur.png`: Input images used for experiments.
 
 ## Setup
 
 ### Prerequisites
 - Python 3.x
 - PyTorch (with CUDA support for GPU acceleration)
-- Additional libraries: 
-inja, mediapy, opencv-python, imageio, PIL
+- Additional libraries: `ninja`, `mediapy`, `opencv-python`, `imageio`, `PIL`
 
 ### Installation
 1. Clone the repository:
-   `ash
+   ```bash
    git clone https://github.com/AmirKelman/StyleGAN2-Reconstruction.git
-   cd StyleGAN2-Reconstruction
+   cd StyleGAN2-Reconstruction" > README.md
+git add README.md
+git commit -m "Add README file"
+git push
