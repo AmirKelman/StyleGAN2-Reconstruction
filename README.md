@@ -47,7 +47,4 @@ Key findings from the report:
 1. Clone the repository:
    ```bash
    git clone https://github.com/AmirKelman/StyleGAN2-Reconstruction.git
-   cd StyleGAN2-Reconstruction" > README.md
-git add README.md
-git commit -m "Add README file"
-git push
+   cd StyleGAN2-Reconstruction
